@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "HW HTTP API Assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meakaliaG/http-api-assignment.git"
+  },
+  "author": "Meakalia Gilman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meakaliaG/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/meakaliaG/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
